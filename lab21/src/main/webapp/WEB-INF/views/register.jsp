@@ -12,7 +12,7 @@
 	First Name:<input id="firstname" type="text" name="firstname">
 	Last Name:<input id="lastname" type="text" name="lastname">
 	<br/>
-	email:        <input type="email" name="emailaddress">
+	email:        <input id="email" name="email">
 	<br>
 	Phone number: <input id="phone" type="text" name="phone">
 	<br>

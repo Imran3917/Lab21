@@ -9,6 +9,8 @@
 <body>
 ${firstPage}
 
+<%= new java.util.Date() %> 
+
 <br>
 <a href="register"> Click here to register</a>
 

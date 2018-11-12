@@ -21,7 +21,7 @@ public class HomeController {
     }
     
     @RequestMapping("formresults")
-    public ModelAndView formTest(@RequestParam("firstname") String firstname, @RequestParam("lastname") String lname, @RequestParam("email") String email, @RequestParam("phonenumber") long phnumber, @RequestParam("password") String pword) {
+    public ModelAndView formTest(@RequestParam("firstname") String firstname, @RequestParam("lastname") String lname, @RequestParam("email") String email, @RequestParam("phone") long phnumber, @RequestParam("password") String pword) {
         return new ModelAndView("formPage", "fname", firstname);
     
 	}
